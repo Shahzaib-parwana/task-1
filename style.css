@@ -1,0 +1,562 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    background: #cad0f779;
+    height: 490px;
+}
+
+.navbar-brand img {
+    height: 23px;
+    margin-left: 29px;
+    margin-top: -4px;
+}
+
+.bar::before,
+.barone::before {
+    border-left: 2px solid #000;
+    height: 24px;
+    content: " ";
+    margin-left: 211px;
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+
+@media screen and (max-width: 988px) {
+
+    .bar::before,
+    .barone::before {
+        display: none;
+        border-left: 2px solid #000;
+        height: 24px;
+        content: " ";
+        margin-left: 211px;
+        position: absolute;
+        top: 15px;
+        left: 0;
+    }
+}
+
+li .barone {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    margin-left: -9px;
+    margin-right: 4px;
+}
+
+@media screen and (max-width: 988px) {
+    li .barone {
+        font-size: 17px;
+        font-weight: 600;
+        color: #000;
+        /* margin-left: -9px; */
+        /* margin-right: 4px; */
+    }
+}
+
+.btn-1 {
+    height: 30px;
+    margin-left: 6px;
+
+}
+
+.nav-link {
+    font-size: 13px;
+    color: #000;
+}
+
+.user {
+    position: relative;
+    left: 134px;
+}
+
+.user li a svg {
+    font-size: 19px;
+    border-radius: 50%;
+    border: 0.7px solid #ccc3c3;
+    /* width: 29px;
+    height: 29px; */
+    color: #ccc3c3;
+}
+
+.list-unstyled {
+    font-size: 17px;
+}
+
+.hero-title {
+    font-family: SegoeUI-SemiBold, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 50px;
+    background: -webkit-linear-gradient(353.8deg, #ED6419 -3.08%, #9629E7 14.74%, #0860C7 72.12%);
+    background: oldlinear-gradient(353.8deg, #ED6419 -3.08%, #9629E7 14.74%, #0860C7 72.12%) -moz-;
+    background: -o-linear-gradient(353.8deg, #ED6419 -3.08%, #9629E7 14.74%, #0860C7 72.12%);
+    background: linear-gradient(96.2deg, #ED6419 -3.08%, #9629E7 14.74%, #0860C7 72.12%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    background-clip: text;
+}
+
+.hero-btn {
+    background: white;
+}
+
+.hero-btn:hover {
+    background: #cad0f780;
+    color: #0860C7;
+
+}
+
+.big-img {
+    background: linear-gradient(to bottom, #cad0f780, #cad0f718);
+}
+
+.service {
+    background: rgba(247, 206, 212, 0.486);
+    background: linear-gradient(to bottom, rgba(247, 206, 212, 0.438), rgba(247, 206, 212, 0.068));
+    padding-top: 30px;
+}
+
+.main-btn {
+    /* box-shadow: 3px -3px 5px rgba(0, 0, 0, 0.1), -3px 0px 5px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1); */
+    background: rgba(255, 182, 193, 0.397);
+}
+
+/* background: #fff; */
+
+
+.main-btn p {
+    font-size: 19px;
+    margin-left: 15px;
+    margin-top: 4px;
+    font-weight: 600;
+    color: rgb(158, 52, 34);
+
+}
+
+.main-btn p:hover {
+
+    color: rgb(219, 75, 49);
+}
+
+.section-btn-1 {
+    /* margin-left: 30px;
+    margin-right: 30px; */
+    border-radius: 30px;
+}
+
+li #pills-home-tab {
+    border-radius: 20px 20px 0px 0px;
+    width: 346px;
+    margin-right: 10px;
+    /* background: #fff; */
+}
+
+li #pills-profile-tab {
+    border-radius: 20px 20px 0px 0px;
+    width: 407px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* background: rgba(255, 182, 193, 0.651); */
+}
+
+li #pills-contact-tab {
+    border-radius: 20px 20px 0px 0px;
+    width: 346px;
+    margin-left: 10px;
+    /* background: rgba(255, 182, 193, 0.651); */
+}
+
+.icon {
+    font-size: 18px;
+    fill: rgb(158, 52, 34);
+}
+
+.main-btn .icon svg {
+    fill: rgb(158, 52, 34);
+}
+
+.last-btn .icon svg {
+    fill: rgb(158, 52, 34);
+}
+
+li .active {
+    color: rgb(158, 52, 34);
+}
+
+.section-btn-1 .active {
+    background-color: #fff;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link:active,
+.nav-pills .nav-link:focus {
+    background-color: #fff;
+    /* Change text color for better contrast */
+}
+
+.img-text {
+    margin: 1px 80px 0px 0px;
+}
+
+.img-3 {
+    margin: 1px 80px 0px 0px;
+}
+
+.last-img {
+    margin: 1px 99px 0px 192px;
+}
+
+.box-section1 {
+    margin-top: 70px;
+}
+
+.box-section2 {
+    margin-top: 90px;
+}
+
+.box-container {
+    box-shadow: 3px -3px 5px rgba(0, 0, 0, 0.1), -3px 0px 5px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+#pills-contact-tab-3 {
+    /* width: 250px; */
+    border-radius: 20%;
+    margin-right: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#pills-profile-tab-2 {
+    width: 200px;
+    border-radius: 20%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+li #pills-home-tab-1 {
+    /* width: 250px; */
+    border-radius: 30px;
+    margin-left: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.nav-pills button.active,
+.nav-pills button:active,
+.nav-pills button:focus {
+    background-color: #c22c07;
+    fill: #fff;
+    color: #fff;
+
+    /* Changeext color for better contrast */
+}
+
+.btn p {
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+
+/* media queries */
+@media screen and (max-width: 988px) {
+    .navbar-nav {
+        margin-left: 10px;
+
+    }
+
+    .ds-md-none {
+        display: none;
+    }
+
+    .navbar-brand img {
+        margin-left: 6px;
+    }
+
+    .hero-txt {
+        font-size: 16px;
+    }
+
+    .lern-more {
+        margin-left: 8px;
+        font-size: 14px;
+    }
+
+    .lern-more span svg {
+        font-size: 14px;
+    }
+    .home-button{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .service-btn{
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    li #pills-home-tab {
+        border-radius: 20px 20px 0px 0px;
+        width: 301px;
+        margin-right: 10px;
+        /* background: #fff; */
+    }
+    
+    li #pills-profile-tab {
+        border-radius: 20px 20px 0px 0px;
+        width: 350px;
+        margin-left: 10px;
+        margin-right: 10px;
+        /* background: rgba(255, 182, 193, 0.651); */
+    }
+    
+    li #pills-contact-tab {
+        border-radius: 20px 20px 0px 0px;
+        width: 270px;
+        margin-left: 10px;
+        /* background: rgba(255, 182, 193, 0.651); */
+    }
+    .last-img {
+        margin: 1px 99px 0px 162px;
+    }
+    .btn span svg{
+        width: 23px;
+        height: 23px;
+    }
+    .btn .btn-text{
+        font-size: 15px;
+    }
+
+}
+
+
+@media screen and (max-width: 992px) {
+   
+    li #pills-home-tab {
+        border-radius: 20px 20px 0px 0px;
+        width: 231px;
+        margin-right: 10px;
+        /* background: #fff; */
+    }
+    
+    li #pills-profile-tab {
+        border-radius: 20px 20px 0px 0px;
+        width: 250px;
+        margin-left: 10px;
+        margin-right: 10px;
+        /* background: rgba(255, 182, 193, 0.651); */
+    }
+    
+    li #pills-contact-tab {
+        border-radius: 20px 20px 0px 0px;
+        width: 200px;
+        margin-left: 10px;
+        /* background: rgba(255, 182, 193, 0.651); */
+    }
+    
+    .main-btn p{
+        font-size: 15px;
+    }
+   
+    /* .last-img {
+        margin: 1px 45px 0px 162px;
+    } */
+    
+    .box-section1 {
+        margin-top: 50px;
+    }
+    
+    .box-section2 {
+        margin-top: 50px;
+    }
+    .last-img {
+        margin: 1px 99px 0px 152px;
+    }
+    .btn span svg{
+        display: none;
+        width: 20px;
+        height: 20px;
+    }
+    .btn .btn-text{
+        font-size: 13px;
+    }
+    
+}
+@media screen and (max-width: 769px) {
+    
+    li #pills-home-tab {
+        border-radius: 20px 20px 0px 0px;
+        width: 160px;
+        margin-right: 8px;
+        /* background: #fff; */
+    }
+    
+    li #pills-profile-tab {
+        border-radius: 20px 20px 0px 0px;
+        width: 190px;
+        margin-left: 8px;
+        margin-right: 8px;
+        /* background: rgba(255, 182, 193, 0.651); */
+    }
+    
+    li #pills-contact-tab {
+        border-radius: 20px 20px 0px 0px;
+        width: 162px;
+        margin-left: 8px;
+        /* background: rgba(255, 182, 193, 0.651); */
+    }
+    .main-btn{
+        flex-direction: column;
+    }
+    #pills-home-tab{
+        flex-direction: column;
+
+    }
+    .icon svg{
+        display: none;
+    }
+    .last-img {
+        margin: 1px 50px 0px 25px;
+    }
+    .btn span svg{
+        display: block;
+        width: 20px;
+        height: 20px;
+        margin-left: 20px;
+       
+    }
+    .btn .btn-text{
+        display: none;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 541px) {
+    
+    li #pills-home-tab {
+        border-radius: 20px 20px 0px 0px;
+        width: 140px;
+        margin-right: 6px;
+        /* background: #fff; */
+    }
+    
+    li #pills-profile-tab {
+        border-radius: 20px 20px 0px 0px;
+        width: 160px;
+        margin-left: 6px;
+        margin-right: 6px;
+        /* background: rgba(255, 182, 193, 0.651); */
+    }
+    
+    li #pills-contact-tab {
+        border-radius: 20px 20px 0px 0px;
+        width: 140px;
+        margin-left: 6px;
+        /* background: rgba(255, 182, 193, 0.651); */
+    }
+    .btn span svg{
+        margin-left: 10px;  
+    }
+}
+@media screen and (max-width: 449px) {
+    
+    li #pills-home-tab {
+        border-radius: 20px 20px 0px 0px;
+        width: 100px;
+        margin-right: 10px;
+        /* background: #fff; */
+    }
+    
+    li #pills-profile-tab {
+        border-radius: 20px 20px 0px 0px;
+        width: 150px;
+        margin-left: 10px;
+        margin-right: 10px;
+        /* background: rgba(255, 182, 193, 0.651); */
+    }
+    
+    li #pills-contact-tab {
+        border-radius: 20px 20px 0px 0px;
+        width: 100px;
+        margin-left: 10px;
+        /* background: rgba(255, 182, 193, 0.651); */
+    }
+    .main-btn p{
+        font-size: 13px;
+    }
+    .btn span svg{
+        margin-left: 3px;
+      }
+}
+@media screen and (max-width: 387px) {
+    
+    li #pills-home-tab {
+        border-radius: 20px 20px 0px 0px;
+        width: 90px;
+        margin-right: 10px;
+        /* background: #fff; */
+    }
+    
+    li #pills-profile-tab {
+        border-radius: 20px 20px 0px 0px;
+        width: 140px;
+        margin-left: 10px;
+        margin-right: 10px;
+        /* background: rgba(255, 182, 193, 0.651); */
+    }
+    
+    li #pills-contact-tab {
+        border-radius: 20px 20px 0px 0px;
+        width: 90px;
+        margin-left: 10px;
+        /* background: rgba(255, 182, 193, 0.651); */
+    }
+    .main-btn p{
+        display: none;
+    }
+    .icon svg{
+        display: block;
+    }
+    .btn span svg{
+      margin-left: 1px;
+    }
+}
+@media screen and (max-width: 354px) {
+    li #pills-home-tab {
+        border-radius: 20px 20px 0px 0px;
+        width: 80px;
+        margin-right: 2px;
+        /* background: #fff; */
+    }
+    
+    li #pills-profile-tab {
+        border-radius: 20px 20px 0px 0px;
+        width: 100px;
+        margin-left: 2px;
+        margin-right: 2px;
+        /* background: rgba(255, 182, 193, 0.651); */
+    }
+    
+    li #pills-contact-tab {
+        border-radius: 20px 20px 0px 0px;
+        width: 80px;
+        margin-left: 2px;
+        /* background: rgba(255, 182, 193, 0.651); */
+    }
+   
+    .icon svg{
+        display: block;
+        width: 25px;
+        height: 25px;
+    }
+}
